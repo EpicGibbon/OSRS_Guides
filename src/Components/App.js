@@ -1,33 +1,14 @@
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
-// THIS FILES CONTENT SHOULD BE IN MAIN/INDEX.JS. LEAVING HERE FOR REFERENCE. NEEDS TO BE WIRED.
+import React from "react";
+import ReactDOM from "react-dom";
+import Main from "../Pages/Main";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
-import {Link} from "react-router-dom";
-
-function Main() {
-  return (
-    <header>OSRS Guides
-      <img src="http://thegg.net/wp-content/uploads/2021/02/these-are-some-top-old-school-runescape-bosses-to-fight-in-2021-header.jpg"></img>
-    </header>
-  )
-}
-
-// function App() {
-//   return (
-    
-//     <div className="App">
-
-//       <header className="App-header">
-//         <p>
-//           OSRS Guides
-//           <img src="http://thegg.net/wp-content/uploads/2021/02/these-are-some-top-old-school-runescape-bosses-to-fight-in-2021-header.jpg" />
-//         </p>
-//       </header>
-//     </div>
-//   );
-// }
+ReactDOM.render(
+  <Main />,
+  // <Header />,
+  // <Footer />,
+  document.getElementById("root")
+);
 
 export default Main;
