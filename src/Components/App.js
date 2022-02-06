@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Main from "../Pages/Main";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 ReactDOM.render(
   <Main />,
