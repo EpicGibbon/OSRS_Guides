@@ -2,13 +2,13 @@ import React from "react";
 import './style.css';
 import { render } from "react-dom";
 import { Link } from 'react-router-dom';
-
+import logo from '../../Images/header.png';
 
 function Header() {
 
     return (
         <div>
-            <img src="https://runescape.oldskoolfan.net/assets/images/osrsHeader.png"></img>
+            <img src={require("../../Images/header.png")}></img>
             <nav>
                 <div class="nav-wrapper">
                     <a href="#" class="brand-logo">OSRS Guides</a>
