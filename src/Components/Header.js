@@ -4,13 +4,19 @@ import { render } from "react-dom";
 
 function Header() {
 
-    
     return (
-        // <>
-        // <Header />
-        // </>
-        <div>OSRS Guides
+        <div>
             <img src="https://runescape.oldskoolfan.net/assets/images/osrsHeader.png"></img>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">OSRS Guides</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Raids</a></li>
+                        <li><a href="badges.html">Bossing</a></li>
+                        <li><a href="collapsible.html">Skills</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     )
 }
