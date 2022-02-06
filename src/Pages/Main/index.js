@@ -3,10 +3,9 @@ import Footer from '../../Components/Footer';
 import '../Main/style.css';
 
 export const Main = () => {
-return (
-    <Header />
-
-)
+    return (
+        <Header />
+    )
 }
 
 export default Main;
