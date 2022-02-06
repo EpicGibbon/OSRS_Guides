@@ -5,3 +5,53 @@ body {
     /* color: #d9c27e; */
     color: #90c040;
 }
+
+.heading {
+    width: 100%;
+    height: 200px;
+    margin-top: -137px;
+}
+
+h1 {
+    transform: translate(0%, 30%);
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    transform: translate(0%, -35%);
+}
+
+.middle {
+    width: 100%;
+    height: 100%;
+    transform: translate(0%, -17%);
+    position: relative;
+    z-index: -1;
+}
+
+.bottom {
+    width: 100%;
+    height: 100px;
+    transform: translate(0%, -97%);
+}
+
+.nav-wrapper {
+    color: black;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.raids {
+    margin-right: 250px;
+    font-size: 30px;
+}
+
+.bossing {
+    margin-right: 250px;
+    font-size: 30px;
+}
+
+.skills {
+    font-size: 30px;
+}
