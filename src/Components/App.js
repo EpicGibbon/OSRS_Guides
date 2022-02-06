@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Main from "../Pages/Main";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../Components/Header";
 
-ReactDOM.render(
-  <Main />,
-  // <Header />,
-  // <Footer />,
-  document.getElementById("root")
-);
 
-export default Main;
+function App() {
+  return (
+    <>
+    <Header />
+    <Main />
+    </>
+  )
+};
+
+
+export default App

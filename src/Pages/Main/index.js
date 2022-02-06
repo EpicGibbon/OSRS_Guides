@@ -4,7 +4,7 @@ import '../Main/style.css';
 
 export const Main = () => {
     return (
-        <Header />
+      <p>Hello world</p>
     )
 }
 
