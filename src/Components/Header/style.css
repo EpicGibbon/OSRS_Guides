@@ -55,3 +55,13 @@ h1 {
 .skills {
     font-size: 30px;
 }
+
+nav ul a {
+    color: black;
+    transform: translate(0%, -204%);
+    background-color: unset;
+}
+
+.no-nav {
+    background: transparent;
+}
