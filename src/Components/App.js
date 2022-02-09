@@ -10,7 +10,7 @@ function App() {
 		<>
 			<Header />
       {/* only have boss cards at this level to make sure it renders; still having issues getting react router configured.  */}
-      <Bosses />
+      {/* <Bosses /> */}
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={Main} />
