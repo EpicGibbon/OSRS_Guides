@@ -11,11 +11,11 @@ function App() {
 			<Header />
       {/* only have boss cards at this level to make sure it renders; still having issues getting react router configured.  */}
       {/* <Bosses /> */}
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={Main} />
-				</Routes>
-			</BrowserRouter>
+			{/* <BrowserRouter> */}
+				{/* <Routes> */}
+					<Main />
+				{/* </Routes> */}
+			{/* </BrowserRouter> */}
 			<Footer />
 		</>
 	);
