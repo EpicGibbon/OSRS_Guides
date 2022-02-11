@@ -4,7 +4,7 @@ import '../Main/style.css';
 
 export const Main = () => {
     return (
-      <img src={require("../../Images/middle.png")} className="main-image"></img>   
+      <img src={require("../../Images/middle.png")} className="main-image"></img>
     )
 }
 

@@ -11,8 +11,6 @@ function Header() {
             <h1>OSRS Guides</h1>
             <img src={require("../../Images/header.png")} className="heading"></img>
             <img src={require("../../Images/top.png")} className="top"></img>
-            {/* <img src={require("../../Images/middle.png")} className="middle"></img>
-            <img src={require("../../Images/bottom.png")} className="bottom"></img> */}
             <nav className="no-nav">
                 <div class="nav-wrapper">
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
