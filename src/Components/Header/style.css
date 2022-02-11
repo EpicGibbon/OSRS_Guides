@@ -20,9 +20,11 @@ h1 {
 }
 
 .top {
+    position: relative;
     width: 100%;
     height: 100px;
     transform: translate(0%, -35%);
+    z-index: 1;
 }
 
 .nav-wrapper {
@@ -32,17 +34,23 @@ h1 {
 }
 
 .raids {
+    position: relative;
     margin-right: 250px;
     font-size: 30px;
+    z-index: 2;
 }
 
 .bossing {
+    position: relative;
     margin-right: 250px;
     font-size: 30px;
+    z-index: 2;
 }
 
 .skills {
+    position: relative;
     font-size: 30px;
+    z-index: 2;
 }
 
 nav ul a {
