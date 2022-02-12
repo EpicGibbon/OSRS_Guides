@@ -5,17 +5,17 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Bosses from '../Components/Bosses';
 
-function App() {
+const App = () => {
 	return (
 		<>
 			<Header />
       {/* only have boss cards at this level to make sure it renders; still having issues getting react router configured.  */}
       {/* <Bosses /> */}
-			{/* <BrowserRouter> */}
-				{/* <Routes> */}
-					<Main />
-				{/* </Routes> */}
-			{/* </BrowserRouter> */}
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Main/>} />
+				</Routes>
+			</BrowserRouter>
 			<Footer />
 		</>
 	);
