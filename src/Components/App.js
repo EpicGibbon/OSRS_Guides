@@ -3,7 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from '../Pages/Main';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import Bosses from '../Components/Bosses';
+import Bosses from '../Pages/Bosses';
+import Raids from '../Pages/Raids';
+import Skills from '../Pages/Skills';
 
 const App = () => {
 	return (
@@ -14,6 +16,9 @@ const App = () => {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Main/>} />
+					<Route path="/raids" element={<Raids/>} />
+					<Route path="/bosses" element={<Bosses/>} />
+					<Route path="/skills" element={<Skills/>} />
 				</Routes>
 			</BrowserRouter>
 			<Footer />

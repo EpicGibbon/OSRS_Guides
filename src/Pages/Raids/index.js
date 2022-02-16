@@ -1,11 +1,13 @@
-import Header from '../../Components/Header';
-import Footer from '../../Components/Footer';
-import '../Raids/style.css';
+import "../Raids/style.css";
 
 export const Raids = () => {
-    return (
-        <Header />
-    )
-}
+  return (
+    <body>
+
+<img src={require("../../Images/middle.png")} className="main-image"></img>
+    <span>Raids page</span>
+    </body>
+  );
+};
 
 export default Raids;
