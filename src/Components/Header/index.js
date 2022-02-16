@@ -14,9 +14,9 @@ function Header() {
             <nav className="no-nav">
                 <div class="nav-wrapper">
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li><a href="sass.html" className="raids">Raids</a></li>
-                        <li><a href="badges.html" className="bossing">Bossing</a></li>
-                        <li><a href="collapsible.html" className="skills">Skills</a></li>
+                        <li><a href="/raids" className="raids">Raids</a></li>
+                        <li><a href="/bosses" className="bossing">Bossing</a></li>
+                        <li><a href="/skills" className="skills">Skills</a></li>
                     </ul>
                 </div>
             </nav>
