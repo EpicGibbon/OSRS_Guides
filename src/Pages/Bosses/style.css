@@ -1,0 +1,8 @@
+.boss-text {
+    position: absolute;
+    color:#90c040;
+    top: 25%;
+    left: 44%;
+    z-index: 1;
+
+}
